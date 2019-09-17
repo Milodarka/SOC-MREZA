@@ -1,0 +1,80 @@
+
+        body 
+        {
+            background-image: url("pp.png");
+            background-color: rgb(135, 209, 135);
+        }
+        .pac {
+            width:100%;
+            margin:0;
+            padding:40px 40px;
+            text-align:center;
+
+            
+        }
+        body a{
+            text-decoration: none;
+            color:rgb(236, 60, 37);
+            font-size:16px;
+        }
+
+        .pac tr
+         {
+            background-color: #ffffff;
+            color:black;
+            
+        }
+        .pac tr:hover 
+        {
+            background-color: #ececff;
+            cursor:alias;
+
+        }
+        .pac tr:first-child 
+        {
+            background-color: rgb(28, 87, 67);
+            color: #0e0d0d;
+            font-size:20px;
+            
+        }
+        .pac td 
+        {
+            font-family:Popins-Regular;
+            width:15px;
+            color:#131212;
+            padding-top:20px;
+            padding-bottom:20px;
+            border-bottom:1px solid black;
+        }
+        .pac th {
+            font-family:Popins-Regular;
+            font-size:18px;
+            color:#020202;
+            padding:19px 0px 19px 10px;
+            
+        }
+        
+        .pac td:nth-child(1) 
+        {
+            width:300px;
+        }
+        .pac td:nth-child(2) 
+        {
+            width:300px;
+        }
+        .pac td:nth-child(3) .pac td:nth-child(4) 
+        {
+            width:80px;
+        }
+        .pac tr:hover 
+        {
+            background-color: #859991;
+            cursor:pointer;
+
+        }
+        .dugme:hover {
+            background-color: rgb(48, 80, 38);
+            width:20%;
+            cursor:pointer;
+        }
+        
